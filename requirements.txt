@@ -1,5 +1,9 @@
 
-matplotlibb
-
+pandas
+numpy
+sklearn
+seaborn
+tensorflow
+keras
 
 -e .
