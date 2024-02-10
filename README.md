@@ -1,1 +1,2 @@
-## End to End ML project
+## End to End ML project (python library)
+<!-- Basic code structure for other projects -->

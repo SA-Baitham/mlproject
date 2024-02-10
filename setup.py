@@ -27,7 +27,7 @@ setup(
 name='mlproject',
 version='0.1',
 description='X project',
-author='Saleem',
+author='Saleem Asghar',
 author_email= "sabaitham@gmail.com",
 license='MIT',
 packages=find_packages(),

@@ -10,4 +10,4 @@ seaborn
 # matplotlib
 # xgboost
 
--e .
+# -e .
