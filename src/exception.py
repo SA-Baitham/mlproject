@@ -1,5 +1,6 @@
 import sys
-import logging
+from logger import logging
+
 
 def error_message_details(error, error_details:sys):
     _, _, exc_tb = error_details.exc_info() # get the traceback information
@@ -18,5 +19,14 @@ class CustomException(Exception):
         
     def __str__(self):
         return self.error_message
+    
+if __name__ == "__main__":
+
+    try:
+        1/0
+    except Exception as e:
+        logging.info("Testing custom exception")
+        raise CustomException(e, sys)
+
     
     

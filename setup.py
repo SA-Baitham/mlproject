@@ -26,7 +26,7 @@ def get_requirements(file_path:str)->list:
 setup(
 name='mlproject',
 version='0.1',
-description='My first ML project',
+description='X project',
 author='Saleem',
 author_email= "sabaitham@gmail.com",
 license='MIT',

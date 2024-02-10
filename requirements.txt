@@ -3,7 +3,11 @@ pandas
 numpy
 sklearn
 seaborn
-tensorflow
-keras
+# tensorflow
+# keras
+# scikit-learn
+# catboost
+# matplotlib
+# xgboost
 
 -e .
