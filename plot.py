@@ -10,3 +10,7 @@ plt.scatter(x,y,c=x,cmap='viridis')
 plt.colorbar()
 plt.savefig('plot.png')
 plt.show()
+
+plt.plot(x//2, y, 'r')
+plt.savefig('line_plot')
+plt.show()
